@@ -1,0 +1,217 @@
+<html lang="en">
+
+<head>
+   
+    <link href="fichandramous.css" rel="stylesheet">
+    <title>My Google Map API</title>
+    <style>
+    #map {
+    height: 285px;
+    width: 90.5%;
+        }
+    </style>
+    </head>
+
+<body>
+   
+    <div id="header">
+        
+        
+    <div class="column1header">
+    <div class="socialmedia">
+        <a href="https://twitter.com/?lang=en" >
+        <img src ="twitterlogo.png" width=50px height=50px >
+      </a>
+        <a href="https://www.instagram.com/cil_y_galon/">
+    <img src="instagramlogo.png" width=50px height=50px>
+            </a>
+    <a href="">
+    <img src="facebooklogo.png" width=50px height=50px>
+        </a>
+    <a href="https://www.youtube.com/channel/UCJQ8ApjDKW2xuCa2eD0TOEw/">
+          <img src="youtubelogo.png" width=50px height=50px>
+    </a> 
+    </div> </div>
+        
+        
+        
+        
+    <div class="column2header">
+        
+        <div class="headertext">
+        
+       <p><a href="index.html" style="text-decoration: none; color: white !important;">CARTREF<br>HOME</a></p>
+            
+        </div>  </div> 
+        
+        
+        
+        
+        <div class="column3header">
+        
+        <div class="headertext">
+        
+       <p><a href="about.html" style="text-decoration: none; color: white !important;">AMDANOM NI<br>ABOUT US</a></p>
+   
+        </div>  </div>
+        
+        
+        
+        
+          <div class="column4header">
+        
+        <div class="headertext">
+        
+       <p><a href="services.html" style="text-decoration: none; color: white !important;">GWASANAETHAU<br>SERVICES</a></p>
+   
+        </div>  </div>
+        
+        
+        
+        
+          <div class="column5header">
+        
+        <div class="headertext">
+        
+       <p><a href="contact.html" style="text-decoration: none; color: white !important;">CYSWLLT<br>CONTACT</a></p>
+   
+        </div>  </div>
+        
+        
+        
+        
+        
+         <div class="column6header">
+        
+        <div class="headertext">
+        
+       <p><a href="blog.html" style="text-decoration: none; color: white !important;">HÊN STRYDMAWR<br>OLD HIGHSTREET</a></p>
+   
+        </div>  </div>
+        
+        </div> 
+    
+   
+    
+   <br> 
+    
+    
+    
+
+    
+    
+    
+    
+    <div id="content">
+    
+    <div class="column1">
+     
+     <img src="logo%20white%20background%20twist.png" height="100%";>
+        </div>
+    
+        
+        
+        
+        <div class="column2">
+        <img src="fichandramouslogo.png" width= 537px>
+            <div id="column2font"><br>
+        <p1> Mae Fich and Ramous wastad un cam ymlaen yn y gem o'r tuedduadau newydd. Gyda'i modern esthedig greadigol, a'i cymeriadau o steilists, rydych chi'n suddo i mewn i'r cysurdeb moethus yn y salon <br> <br>Fich and Ramous is always one step ahead in the game of the newest trends. With their modern and creatively aesthetic salon, not to mention the brilliant characters of the stylists, you sink into the comfort of luxury at their salon.</p1> 
+                
+            <a href="https://www.fichandramous.com/about" style="text-decoration: none; color: white !important"><p>Have a look at what they have to offer on their <b>website.</b></p></a>
+                </div>
+            
+        </div>
+        
+      
+        
+        
+        
+        
+        
+        <div class="column3">
+         
+        <div class="fichandramousvid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/01iiRLbapwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            
+            <br>
+         <div class="gmap"> 
+             <div id="map"></div>
+        <script>
+        function initMap(){
+            
+        var options = {
+            zoom:12,
+            center:{lat:51.460296, lng:-3.443563}
+        }
+       
+        var map = new google.maps.Map(document.getElementById('map'), options);
+              
+        addMarker({
+            coords:{lat:51.460296, lng:-3.443563},
+            iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+            content:'<h1>75 Eastgate, Cowbridge, CF71 7AA</h1>'
+        });
+        
+
+            
+        function addMarker(props){
+        var marker = new google.maps.Marker({
+        position:props.coords,
+        map: map,
+        icon:props.iconImage
+        });
+        
+        if(props.iconImage){
+        marker.setIcon(props.iconImage);
+        }
+        if(props.content){
+        var infoWindow = new google.maps.InfoWindow({
+        content:props.content
+        });
+         marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+        });
+        }
+        }
+        }
+            
+        </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVvawzIvNcCljEFGdUF8mo78Dfia8cgWo&callback=initMap"></script>
+           </div>   
+        </div> 
+        
+        
+        
+        
+        
+        
+
+    
+    </div>
+    
+    
+            
+
+   
+    
+    
+ <div id="footer">
+     <div class="copyright">
+     <p>&copy; Copyright 2019 Cil-Y-Galon Independant Marketing</p>
+     </div>
+    
+    
+    </div>
+    
+    
+    
+    
+    </body>
+    
+
+
+
+
+
+</html>

@@ -1,0 +1,185 @@
+body {width: 100%;
+    margin:0 auto;
+height: 628px;
+padding: 0;}
+
+#content {overflow: auto;
+height:100%;}
+
+#nav {background-color: #BDC3C7;
+padding: 10px;
+margin: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column1 {
+    background-color: white;
+    width: 20%;
+float:left;
+margin: 0px 0px 0px 0px;
+height: 100%;
+    
+}
+
+
+.column2 {background-color: #BDC3C7;
+    width 80%;
+float:;
+margin: 0px 0px 0px 0px;
+height: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header { 
+    display:block;
+    border: solid;
+    border-color: #797D7F;
+    border-width: 100%;
+    background-color: #797D7F;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;}
+
+.socialmedia {padding-bottom: 1px;
+padding-top: 1px;
+    margin:0;
+    overflow: auto;
+}
+
+.column1header {width= 25%;
+float: left;
+margin:0px 0px 0px 0px;
+    padding: 1px;
+    }
+
+.column2header {width= 15%;
+float:left;
+    
+    margin-left: 350px;
+    margin-right: 100px;
+    
+}
+
+.column3header {width= 15%;
+float:left;
+    margin-right: 100px;
+}
+
+.column4header {width= 15%;
+float:left;
+    margin-right: 100px;
+}
+
+.column5header {width= 15%;
+float:left;
+    margin-right:00px;
+}
+
+
+.headertext {display:block;
+text-align: center;
+font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #797D7F;
+    border-radius: 4px;
+    box-sizing:border-box;
+    resize:vertical;
+}
+
+input[type=submit] {
+    background-color: #909497;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #BDC3C7;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #B3B6B7;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+.container2 {padding: 5px;
+    background-color: #B3B6B7;
+}
+
+
+
+
+
+
+
+
+
+#footer {border:solid;
+border-color: #797D7F;
+border-width: 100%;
+    background-color: #797D7F;
+}
+.copyright {text-align: right;
+    color:white;
+    font-size: 10px;
+}
+
+
+
+#header, #content, #footer {margin: 0;
+padding: 1px;} 
+

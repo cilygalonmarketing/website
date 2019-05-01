@@ -1,0 +1,167 @@
+body {width: 100%;
+    margin:0 auto;
+height: 628px;
+padding: 0;}
+
+#content {overflow: auto;
+height:100%;}
+
+#nav {background-color: aqua;
+padding: 10px;
+margin: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.column1 {
+    background-color: white;
+    width: 20%;
+float:left;
+margin: 0px 0px 0px 0px;
+height: 100%;
+    
+}
+
+.column2 {background-color: #BDC3C7;
+    width 25%;
+float:left;
+margin: 0px 0px 0px 0px;
+height: 100%;
+}
+
+
+.column3 {background-color: #BDC3C7;
+width: 34%;
+float:left;
+margin: 0px 0px 0px 0px;
+height: 100%;}
+
+.column4 {background-color: white;
+    
+    float: right;
+    margin: 0px 0px 0px 0px;
+    height 100%;
+}
+
+
+    
+
+
+
+
+#column2font {
+    height: 300px;
+    width: 300px;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 30px;
+    
+}
+p1 {font-family: sans-serif;
+color: white;
+font-size: 13px;
+text-align: center;}
+
+
+
+
+
+
+h1 {font-family: sans-serif;
+text-align: center;
+font-size: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+#header { 
+    display:block;
+    border: solid;
+    border-color: #797D7F;
+    border-width: 100%;
+    background-color: #797D7F;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;}
+
+.socialmedia {padding-bottom: 1px;
+padding-top: 1px;
+    margin:0;
+    overflow: auto;
+}
+
+.column1header {width= 25%;
+float: left;
+margin:0px 0px 0px 0px;
+    padding: 1px;
+    }
+
+.column2header {width= 15%;
+float:left;
+    
+    margin-left: 350px;
+    margin-right: 100px;
+    
+}
+
+.column3header {width= 15%;
+float:left;
+    margin-right: 100px;
+}
+
+.column4header {width= 15%;
+float:left;
+    margin-right: 100px;
+}
+
+.column5header {width= 15%;
+float:left;
+    margin-right:00px;
+}
+
+
+.headertext {display:block;
+text-align: center;
+font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#footer {border:solid;
+border-color: #797D7F;
+border-width: 100%;
+    background-color: #797D7F;
+}
+.copyright {text-align: right;
+    color:white;
+    font-size: 10px;
+}
+
+
+
+#header, #content, #footer {margin: 0;
+padding: 1px;} 
